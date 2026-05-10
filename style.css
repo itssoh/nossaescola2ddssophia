@@ -6,12 +6,14 @@
 
 body {
     font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* HEADER */
 .cabecalho {
-    background-color: #3582ff;
-    color: white;
+    background-color: #0f2649;
+    color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,7 +25,7 @@ body {
 }
 
 .titulo-site {
-    font-size: 28px;
+    font-size: 60px;
 }
 
 .sociais img {
@@ -45,11 +47,12 @@ body {
 
 /* ALUNOS */
 .estudante {
-    background-color: #faae43;
+    background-color: #002561;
     padding: 30px;
 }
 
 .estudante-titulo {
+    color: rgb(255, 255, 255);
     text-align: center;
     margin-bottom: 20px;
     font-size: 26px;
@@ -59,16 +62,18 @@ body {
 .estudantes-todos {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
+    gap: 30px;
+    padding: 20px;
 }
+
 
 /* CARD */
 .estudante-div {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     text-align: center;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    box-shadow: 0px 4px 10px rgba(194, 194, 194, 0.2);
 }
 
 .estudante-imagem {
@@ -82,7 +87,7 @@ body {
 
 /* RODAPÉ */
 .rodape {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
     text-align: center;
     padding: 15px;
