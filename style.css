@@ -12,8 +12,8 @@ body {
 
 /* HEADER */
 .cabecalho {
-    background-color: #0f2649;
-    color: rgb(255, 255, 255);
+    background-color: #68a4ff;
+    color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,12 +47,12 @@ body {
 
 /* ALUNOS */
 .estudante {
-    background-color: #002561;
+    background-color: #86b1f7;
     padding: 30px;
 }
 
 .estudante-titulo {
-    color: rgb(255, 255, 255);
+    color: rgb(32, 31, 31);
     text-align: center;
     margin-bottom: 20px;
     font-size: 26px;
@@ -88,7 +88,7 @@ body {
 /* RODAPÉ */
 .rodape {
     background-color: rgb(0, 0, 0);
-    color: white;
+    color: rgb(218, 243, 255);
     text-align: center;
     padding: 15px;
 }
